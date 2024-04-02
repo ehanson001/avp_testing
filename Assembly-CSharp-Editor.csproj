@@ -974,6 +974,10 @@
       <Project>{38e3f556-d87b-c958-ceec-5aa5e241a706}</Project>
       <Name>Assembly-CSharp</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.VisionOS.Sample.URP.csproj">
+      <Project>{6ae5994f-ff52-13b2-daf0-ae22be451ff2}</Project>
+      <Name>Unity.VisionOS.Sample.URP</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
