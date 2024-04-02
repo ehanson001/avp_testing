@@ -5,6 +5,15 @@ EditorUserSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 4
   m_ConfigSettings:
+    CapabilityProfileSelection:
+      value: 52075256500c5a0e5c0d547748725a444616407c7b2a23617f7e4862e7e66d60
+      flags: 0
+    RecentlyUsedSceneGuid-0:
+      value: 560857565105085a595b5b7344770c424215417c7f7a756328704c61e0b0623d
+      flags: 0
+    RecentlyUsedSceneGuid-1:
+      value: 54025154530c0f020b58082747770e46404f4f72787f2266797a1c60b7b2633e
+      flags: 0
     vcSharedLogLevel:
       value: 0d5e400f0650
       flags: 0

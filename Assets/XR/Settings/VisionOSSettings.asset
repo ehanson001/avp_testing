@@ -12,7 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87fdc71f48fec416ba6b375d53aba3b8, type: 3}
   m_Name: VisionOSSettings
   m_EditorClassIdentifier: 
-  m_RenderMode: 1
-  m_AppMode: 1
+  m_AppMode: 0
   m_HandsTrackingUsageDescription: Hand tracking demo
   m_WorldSensingUsageDescription: World sensing demo
+  m_RuntimeSettings: {fileID: 11400000, guid: 5c12e7ca3ec094453835a11a574acc2c, type: 2}
+  m_UpperLimbVisibility: 0
+  m_FoveatedRendering: 1
+  m_IL2CPPLargeExeWorkaround: 0
