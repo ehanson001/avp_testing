@@ -1,0 +1,953 @@
+Unity Editor version:    2022.3.18f1 (d29bea25151d)
+Branch:                  2022.3/release
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 14.3.1 (Build 23D60)
+Darwin version:          23.3.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        65536 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2022.3.18f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/bucephalus/Documents/Projects/Unity/avp_testing
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+54020
+Successfully changed project path to: /Users/bucephalus/Documents/Projects/Unity/avp_testing
+/Users/bucephalus/Documents/Projects/Unity/avp_testing
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [8048581696] Host "[IP] 10.26.33.186 [Port] 0 [Flags] 2 [Guid] 1568097910 [EditorId] 1568097910 [Version] 1048832 [Id] OSXEditor(0,Bucephalus.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [8048581696] Host "[IP] 10.26.33.186 [Port] 0 [Flags] 2 [Guid] 1568097910 [EditorId] 1568097910 [Version] 1048832 [Id] OSXEditor(0,Bucephalus.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
+Refreshing native plugins compatible for Editor in 5.71 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.18f1 (d29bea25151d)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2022.3.18f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/bucephalus/Documents/Projects/Unity/avp_testing/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+ preferred device: Apple M3 Max (high power)
+Metal devices available: 1
+0: Apple M3 Max (high power)
+Using device Apple M3 Max (high power)
+Initializing Metal device caps: Apple M3 Max
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2022.3.18f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2022.3.18f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2022.3.18f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56094
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.18f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.18f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.18f1/PlaybackEngines/VisionOSPlayer/UnityEditor.VisionOS.Extensions.dll
+Registered in 0.002104 seconds.
+- Loaded All Assemblies, in  0.176 seconds
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+[usbmuxd] Send listen message
+Native extension for VisionOS target not found
+objc[79094]: Class XcodeScriptingDelegate is implemented in both /Applications/Unity/Hub/Editor/2022.3.18f1/PlaybackEngines/VisionOSPlayer/arm64/UnityEditor.VisionOS.Native.dylib (0x15457c5d8) and /Applications/Unity/Hub/Editor/2022.3.18f1/PlaybackEngines/iOSSupport/arm64/UnityEditor.iOS.Native.dylib (0x1545a45d8). One of the two will be used. Which one is undefined.
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+[usbmuxd] Send listen message
+Native extension for iOS target not found
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.177 seconds
+Domain Reload Profiling: 353ms
+	BeginReloadAssembly (42ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (19ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (83ms)
+		LoadAssemblies (42ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (82ms)
+			TypeCache.Refresh (81ms)
+				TypeCache.ScanAssembly (73ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (177ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (143ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (48ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (1ms)
+			ProcessInitializeOnLoadAttributes (69ms)
+			ProcessInitializeOnLoadMethodAttributes (22ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.447 seconds
+Refreshing native plugins compatible for Editor in 3.65 ms, found 3 plugins.
+Native extension for VisionOS target not found
+Native extension for iOS target not found
+Native extension for OSXStandalone target not found
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-PolySpatial Project Template
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.PolySpatial.PolySpatialSettings.LoadPackageVersion () [0x00046] in ./Library/PackageCache/com.unity.polyspatial@1.0.3/Runtime/Public/PolySpatialSettingsForEditor.cs:188 
+  at Unity.PolySpatial.PolySpatialSettings.InitializeInEditor () [0x0000b] in ./Library/PackageCache/com.unity.polyspatial@1.0.3/Runtime/Public/PolySpatialSettingsForEditor.cs:170 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <dcf6bec1c5764d29a37432d4b047f650>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <dcf6bec1c5764d29a37432d4b047f650>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <dcf6bec1c5764d29a37432d4b047f650>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:145 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes () (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:149)
+
+(Filename: /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs Line: 149)
+
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.459 seconds
+Domain Reload Profiling: 904ms
+	BeginReloadAssembly (59ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (13ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (20ms)
+	LoadAllAssembliesAndSetupDomain (338ms)
+		LoadAssemblies (203ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (161ms)
+			TypeCache.Refresh (139ms)
+				TypeCache.ScanAssembly (124ms)
+			ScanForSourceGeneratedMonoScriptInfo (14ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (459ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (363ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (14ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (66ms)
+			ProcessInitializeOnLoadAttributes (231ms)
+			ProcessInitializeOnLoadMethodAttributes (46ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Launching external process: /Applications/Unity/Hub/Editor/2022.3.18f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.04 seconds
+Refreshing native plugins compatible for Editor in 2.90 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5684 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 113 unused Assets / (2.1 MB). Loaded Objects now: 6162.
+Memory consumption went from 246.4 MB to 244.3 MB.
+Total: 3.488792 ms (FindLiveObjects: 0.166625 ms CreateObjectMapping: 0.057000 ms MarkObjects: 2.624750 ms  DeleteObjects: 0.640125 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 62b5816608c3102f162a1797e29626cf -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 450183.785370 seconds.
+  path: Packages/com.unity.polyspatial/Tests/Data/ShaderGraph/SourceAssets/Input/Texture.shadergraph
+  artifactKey: Guid(4b8babb516d7d42f080b737456521253) Importer(2089858483,581c8cee6375cf64a6da3fa1fe867c67)
+Start importing Packages/com.unity.polyspatial/Tests/Data/ShaderGraph/SourceAssets/Input/Texture.shadergraph using Guid(4b8babb516d7d42f080b737456521253) Importer(2089858483,581c8cee6375cf64a6da3fa1fe867c67)  -> (artifact id: 'ac4dd64eefe060258a38c86fc5b28113') in 0.108299 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.006627 seconds.
+  path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Thin.ttf
+  artifactKey: Guid(19a9abb883540be48b75b951a927ae03) Importer(2089858483,581c8cee6375cf64a6da3fa1fe867c67)
+Start importing Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Thin.ttf using Guid(19a9abb883540be48b75b951a927ae03) Importer(2089858483,581c8cee6375cf64a6da3fa1fe867c67)  -> (artifact id: '8aaee246e35c02f057cfeec1ae98d3bd') in 0.002606 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.020585 seconds.
+  path: Packages/com.unity.polyspatial/Tests/Data/ShaderGraph/SourceAssets/Input/Gradient.shadergraph
+  artifactKey: Guid(d5ac2ae754ae6e44f94bf7ef64fc98e3) Importer(2089858483,581c8cee6375cf64a6da3fa1fe867c67)
+Start importing Packages/com.unity.polyspatial/Tests/Data/ShaderGraph/SourceAssets/Input/Gradient.shadergraph using Guid(d5ac2ae754ae6e44f94bf7ef64fc98e3) Importer(2089858483,581c8cee6375cf64a6da3fa1fe867c67)  -> (artifact id: '50b48b2fe6a85b71786420994ccb28ca') in 0.015343 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.005129 seconds.
+  path: Packages/com.unity.polyspatial/Tests/Data/ShaderGraph/SourceAssets/Artistic/Blend.shadergraph
+  artifactKey: Guid(ae0b09404d15b034896b215588a5fc9e) Importer(2089858483,581c8cee6375cf64a6da3fa1fe867c67)
+Start importing Packages/com.unity.polyspatial/Tests/Data/ShaderGraph/SourceAssets/Artistic/Blend.shadergraph using Guid(ae0b09404d15b034896b215588a5fc9e) Importer(2089858483,581c8cee6375cf64a6da3fa1fe867c67)  -> (artifact id: 'a32ee36ce24c92b4ba11ba224153d4d4') in 0.023313 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.008796 seconds.
+  path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-MediumItalic.ttf
+  artifactKey: Guid(d93c1bc57fdf1ac4dad1bf04fac05464) Importer(2089858483,581c8cee6375cf64a6da3fa1fe867c67)
+Start importing Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-MediumItalic.ttf using Guid(d93c1bc57fdf1ac4dad1bf04fac05464) Importer(2089858483,581c8cee6375cf64a6da3fa1fe867c67)  -> (artifact id: 'abbc0020f76f04d390823a029b2dfe4e') in 0.001664 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.003354 seconds.
+  path: Packages/com.unity.polyspatial/Tests/Data/ShaderGraph/SourceAssets/Input/PBR.shadergraph
+  artifactKey: Guid(cf5ce51bd287e4dcba47ec6fa951393c) Importer(2089858483,581c8cee6375cf64a6da3fa1fe867c67)
+Start importing Packages/com.unity.polyspatial/Tests/Data/ShaderGraph/SourceAssets/Input/PBR.shadergraph using Guid(cf5ce51bd287e4dcba47ec6fa951393c) Importer(2089858483,581c8cee6375cf64a6da3fa1fe867c67)  -> (artifact id: '13ea5e96961d71a061e459e8a46aa21b') in 0.008623 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.001909 seconds.
+  path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-BoldItalic.ttf
+  artifactKey: Guid(dfb97a9307a577a41bcacba34b9a7e32) Importer(2089858483,581c8cee6375cf64a6da3fa1fe867c67)
+Start importing Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-BoldItalic.ttf using Guid(dfb97a9307a577a41bcacba34b9a7e32) Importer(2089858483,581c8cee6375cf64a6da3fa1fe867c67)  -> (artifact id: 'b29066c2c93562bd92629265039c291e') in 0.002430 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.003071 seconds.
+  path: Packages/com.unity.polyspatial/Tests/Data/ShaderGraph/SourceAssets/Math/Interpolation.shadergraph
+  artifactKey: Guid(db1744df1e7d944d295d1b04855d8e78) Importer(2089858483,581c8cee6375cf64a6da3fa1fe867c67)
+Start importing Packages/com.unity.polyspatial/Tests/Data/ShaderGraph/SourceAssets/Math/Interpolation.shadergraph using Guid(db1744df1e7d944d295d1b04855d8e78) Importer(2089858483,581c8cee6375cf64a6da3fa1fe867c67)  -> (artifact id: '28693aa80964899b1593498fcba5bd73') in 0.009496 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.004300 seconds.
+  path: Packages/com.unity.polyspatial/Tests/Data/ShaderGraph/SourceAssets/Utility.shadergraph
+  artifactKey: Guid(84a41d2b80a1b41ed9a2a3de2bb41019) Importer(2089858483,581c8cee6375cf64a6da3fa1fe867c67)
+Start importing Packages/com.unity.polyspatial/Tests/Data/ShaderGraph/SourceAssets/Utility.shadergraph using Guid(84a41d2b80a1b41ed9a2a3de2bb41019) Importer(2089858483,581c8cee6375cf64a6da3fa1fe867c67)  -> (artifact id: 'c1ce67a13289292f3207e779aec97652') in 0.040161 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.002191 seconds.
+  path: Packages/com.unity.polyspatial/Tests/Data/ShaderGraph/SourceAssets/UV/TexCoord.shadergraph
+  artifactKey: Guid(621ef377fd3a5874ea0fc4c768b8844c) Importer(2089858483,581c8cee6375cf64a6da3fa1fe867c67)
+Start importing Packages/com.unity.polyspatial/Tests/Data/ShaderGraph/SourceAssets/UV/TexCoord.shadergraph using Guid(621ef377fd3a5874ea0fc4c768b8844c) Importer(2089858483,581c8cee6375cf64a6da3fa1fe867c67)  -> (artifact id: 'cb9b3832419fc19d6aae0dce42f10236') in 0.008319 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.001319 seconds.
+  path: Packages/com.unity.polyspatial/Tests/Data/ShaderGraph/SourceAssets/Input/Lighting.shadergraph
+  artifactKey: Guid(00b4fc826d5cb446185f4c42aae9b8dc) Importer(2089858483,581c8cee6375cf64a6da3fa1fe867c67)
+Start importing Packages/com.unity.polyspatial/Tests/Data/ShaderGraph/SourceAssets/Input/Lighting.shadergraph using Guid(00b4fc826d5cb446185f4c42aae9b8dc) Importer(2089858483,581c8cee6375cf64a6da3fa1fe867c67)  -> (artifact id: '2f831ffe77f34cc61b169ef0d9c14530') in 0.006465 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.001102 seconds.
+  path: Packages/com.unity.polyspatial/Tests/Data/ShaderGraph/SourceAssets/Procedural/Noise.shadergraph
+  artifactKey: Guid(9d02fb6eb85cb7144b509b81227ac448) Importer(2089858483,581c8cee6375cf64a6da3fa1fe867c67)
+Start importing Packages/com.unity.polyspatial/Tests/Data/ShaderGraph/SourceAssets/Procedural/Noise.shadergraph using Guid(9d02fb6eb85cb7144b509b81227ac448) Importer(2089858483,581c8cee6375cf64a6da3fa1fe867c67)  -> (artifact id: '660ad94934fa7d30078a10a7cab2adc6') in 0.007957 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.004977 seconds.
+  path: Packages/com.unity.polyspatial/Tests/Data/ShaderGraph/SourceAssets/Procedural/Shapes.shadergraph
+  artifactKey: Guid(75a47bb662ea942e08aed7cec3183dcb) Importer(2089858483,581c8cee6375cf64a6da3fa1fe867c67)
+Start importing Packages/com.unity.polyspatial/Tests/Data/ShaderGraph/SourceAssets/Procedural/Shapes.shadergraph using Guid(75a47bb662ea942e08aed7cec3183dcb) Importer(2089858483,581c8cee6375cf64a6da3fa1fe867c67)  -> (artifact id: '28406915fa6636da797d5d01482263f9') in 0.016546 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.007707 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/PhysicalMaterial3DsMax/PhysicalMaterial3DsMax.shadergraph
+  artifactKey: Guid(44245ab89240f51459a5077d7145c452) Importer(2089858483,581c8cee6375cf64a6da3fa1fe867c67)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/PhysicalMaterial3DsMax/PhysicalMaterial3DsMax.shadergraph using Guid(44245ab89240f51459a5077d7145c452) Importer(2089858483,581c8cee6375cf64a6da3fa1fe867c67)  -> (artifact id: 'd2e268fdf829d476318dfb99d2542af5') in 0.033225 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.003014 seconds.
+  path: Packages/com.unity.polyspatial/Tests/Data/ShaderGraph/SourceAssets/GraphIO/AllIO.shadergraph
+  artifactKey: Guid(00467b4ac4c08a8488c644d9d89bc958) Importer(2089858483,581c8cee6375cf64a6da3fa1fe867c67)
+Start importing Packages/com.unity.polyspatial/Tests/Data/ShaderGraph/SourceAssets/GraphIO/AllIO.shadergraph using Guid(00467b4ac4c08a8488c644d9d89bc958) Importer(2089858483,581c8cee6375cf64a6da3fa1fe867c67)  -> (artifact id: 'b9c4e2d05712e924aab33558631f266c') in 0.014925 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.016812 seconds.
+  path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Italic.ttf
+  artifactKey: Guid(c839255fc8f6b4b4d90bf8c1af9f9bd1) Importer(2089858483,581c8cee6375cf64a6da3fa1fe867c67)
+Start importing Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Italic.ttf using Guid(c839255fc8f6b4b4d90bf8c1af9f9bd1) Importer(2089858483,581c8cee6375cf64a6da3fa1fe867c67)  -> (artifact id: 'dd0d56238369cba0df7bf51fd4813ddc') in 0.002591 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.017174 seconds.
+  path: Packages/com.unity.polyspatial/Tests/Data/ShaderGraph/SourceAssets/Input/CustomInterpolator.shadergraph
+  artifactKey: Guid(7a426a673573247cbadc680576e6a6ab) Importer(2089858483,581c8cee6375cf64a6da3fa1fe867c67)
+Start importing Packages/com.unity.polyspatial/Tests/Data/ShaderGraph/SourceAssets/Input/CustomInterpolator.shadergraph using Guid(7a426a673573247cbadc680576e6a6ab) Importer(2089858483,581c8cee6375cf64a6da3fa1fe867c67)  -> (artifact id: '8b1025417dad939c7a7d964379b7c9ab') in 0.046914 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.005599 seconds.
+  path: Packages/com.unity.polyspatial/Tests/Data/ShaderGraph/SourceAssets/Artistic/Mask.shadergraph
+  artifactKey: Guid(ecb51522fd137414c875380a2b5fdfbf) Importer(2089858483,581c8cee6375cf64a6da3fa1fe867c67)
+Start importing Packages/com.unity.polyspatial/Tests/Data/ShaderGraph/SourceAssets/Artistic/Mask.shadergraph using Guid(ecb51522fd137414c875380a2b5fdfbf) Importer(2089858483,581c8cee6375cf64a6da3fa1fe867c67)  -> (artifact id: '04b3f0d2557c0ef3938153a9ec561cf9') in 0.008898 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.040391 seconds.
+  path: Packages/com.unity.polyspatial/Tests/Data/ShaderGraph/SourceAssets/Input/Keywords.shadergraph
+  artifactKey: Guid(c44c0c101d823cc45b7aed2e0872d711) Importer(2089858483,581c8cee6375cf64a6da3fa1fe867c67)
+Start importing Packages/com.unity.polyspatial/Tests/Data/ShaderGraph/SourceAssets/Input/Keywords.shadergraph using Guid(c44c0c101d823cc45b7aed2e0872d711) Importer(2089858483,581c8cee6375cf64a6da3fa1fe867c67)  -> (artifact id: '68de3f7be6502cd1ad99380442364d28') in 0.010391 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.002810 seconds.
+  path: Packages/com.unity.polyspatial/Tests/Data/ShaderGraph/SourceAssets/Input/GeomPosition.shadergraph
+  artifactKey: Guid(e8407ef4a29f0244eb2fe79f9eb067a6) Importer(2089858483,581c8cee6375cf64a6da3fa1fe867c67)
+Start importing Packages/com.unity.polyspatial/Tests/Data/ShaderGraph/SourceAssets/Input/GeomPosition.shadergraph using Guid(e8407ef4a29f0244eb2fe79f9eb067a6) Importer(2089858483,581c8cee6375cf64a6da3fa1fe867c67)  -> (artifact id: '1aac9bdabcab9e2989bb87a5e717be5e') in 0.010767 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.013159 seconds.
+  path: Packages/com.unity.polyspatial/Tests/Data/ShaderGraph/SourceAssets/Math/Matrix.shadergraph
+  artifactKey: Guid(67b95dcbcccf347ed99bce8597ade2e0) Importer(2089858483,581c8cee6375cf64a6da3fa1fe867c67)
+Start importing Packages/com.unity.polyspatial/Tests/Data/ShaderGraph/SourceAssets/Math/Matrix.shadergraph using Guid(67b95dcbcccf347ed99bce8597ade2e0) Importer(2089858483,581c8cee6375cf64a6da3fa1fe867c67)  -> (artifact id: '07807a25cb7a45a54080f8be3cfecabf') in 0.011590 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.001780 seconds.
+  path: Packages/com.unity.polyspatial/Tests/Data/ShaderGraph/SourceAssets/Math/Trigonometry.shadergraph
+  artifactKey: Guid(75b4076ed382c4e1aa38ecb7549450cb) Importer(2089858483,581c8cee6375cf64a6da3fa1fe867c67)
+Start importing Packages/com.unity.polyspatial/Tests/Data/ShaderGraph/SourceAssets/Math/Trigonometry.shadergraph using Guid(75b4076ed382c4e1aa38ecb7549450cb) Importer(2089858483,581c8cee6375cf64a6da3fa1fe867c67)  -> (artifact id: '644784e85753b407b8d4516e324bce45') in 0.013200 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.001603 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Shaders/AutodeskInteractive/AutodeskInteractiveMasked.shadergraph
+  artifactKey: Guid(80aa867ac363ac043847b06ad71604cd) Importer(2089858483,581c8cee6375cf64a6da3fa1fe867c67)
+Start importing Packages/com.unity.render-pipelines.universal/Shaders/AutodeskInteractive/AutodeskInteractiveMasked.shadergraph using Guid(80aa867ac363ac043847b06ad71604cd) Importer(2089858483,581c8cee6375cf64a6da3fa1fe867c67)  -> (artifact id: '99b65c63024a9bd93b7eccd3bdefcd10') in 0.016545 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.005162 seconds.
+  path: Packages/com.unity.polyspatial/Resources/Shaders/MaskingShader.shadergraph
+  artifactKey: Guid(7f7cb649f1ab84e65be9bf2a547029e4) Importer(2089858483,581c8cee6375cf64a6da3fa1fe867c67)
+Start importing Packages/com.unity.polyspatial/Resources/Shaders/MaskingShader.shadergraph using Guid(7f7cb649f1ab84e65be9bf2a547029e4) Importer(2089858483,581c8cee6375cf64a6da3fa1fe867c67)  -> (artifact id: '3763ebc9129747e48cadcec7f9bd0636') in 0.014114 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.002390 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/PhysicalMaterial3DsMax/PhysicalMaterial3DsMaxTransparent.shadergraph
+  artifactKey: Guid(1a207e3bee00db44b940e6f362a8e148) Importer(2089858483,581c8cee6375cf64a6da3fa1fe867c67)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/PhysicalMaterial3DsMax/PhysicalMaterial3DsMaxTransparent.shadergraph using Guid(1a207e3bee00db44b940e6f362a8e148) Importer(2089858483,581c8cee6375cf64a6da3fa1fe867c67)  -> (artifact id: 'e23d18eb2e5503f27cdd498dc12492a7') in 0.022835 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000365 seconds.
+  path: Packages/com.unity.polyspatial/Tests/Data/ShaderGraph/SourceAssets/Textures/Textures.shadergraph
+  artifactKey: Guid(a52023217b4619849b6fa0915d982ff2) Importer(2089858483,581c8cee6375cf64a6da3fa1fe867c67)
+Start importing Packages/com.unity.polyspatial/Tests/Data/ShaderGraph/SourceAssets/Textures/Textures.shadergraph using Guid(a52023217b4619849b6fa0915d982ff2) Importer(2089858483,581c8cee6375cf64a6da3fa1fe867c67)  -> (artifact id: '2b53d19d9db0b93455c3c0e24e0ad403') in 0.011681 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.002404 seconds.
+  path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-LightItalic.ttf
+  artifactKey: Guid(5e63515167650a541b309ba3bfd4db3d) Importer(2089858483,581c8cee6375cf64a6da3fa1fe867c67)
+Start importing Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-LightItalic.ttf using Guid(5e63515167650a541b309ba3bfd4db3d) Importer(2089858483,581c8cee6375cf64a6da3fa1fe867c67)  -> (artifact id: 'f1412c411e8278621f47d48a870d1ec0') in 0.001404 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.006386 seconds.
+  path: Packages/com.unity.polyspatial/Tests/Data/ShaderGraph/SourceAssets/UV/UV.shadergraph
+  artifactKey: Guid(b6dd71cf46f0bc742a74f7c616950382) Importer(2089858483,581c8cee6375cf64a6da3fa1fe867c67)
+Start importing Packages/com.unity.polyspatial/Tests/Data/ShaderGraph/SourceAssets/UV/UV.shadergraph using Guid(b6dd71cf46f0bc742a74f7c616950382) Importer(2089858483,581c8cee6375cf64a6da3fa1fe867c67)  -> (artifact id: 'fe1722d8678e079db9c9d74887f744f9') in 0.013678 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.004097 seconds.
+  path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Regular.ttf
+  artifactKey: Guid(30dc370b164eefc43b95744fc796dad0) Importer(2089858483,581c8cee6375cf64a6da3fa1fe867c67)
+Start importing Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Regular.ttf using Guid(30dc370b164eefc43b95744fc796dad0) Importer(2089858483,581c8cee6375cf64a6da3fa1fe867c67)  -> (artifact id: '97b980569fcd15875e8d0f63dcf780f2') in 0.001251 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000454 seconds.
+  path: Packages/com.unity.polyspatial/Tests/Data/ShaderGraph/SourceAssets/Input/GeomNormal.shadergraph
+  artifactKey: Guid(8313a30e385e2b3408befadcfeb0394e) Importer(2089858483,581c8cee6375cf64a6da3fa1fe867c67)
+Start importing Packages/com.unity.polyspatial/Tests/Data/ShaderGraph/SourceAssets/Input/GeomNormal.shadergraph using Guid(8313a30e385e2b3408befadcfeb0394e) Importer(2089858483,581c8cee6375cf64a6da3fa1fe867c67)  -> (artifact id: '0fda34d0de8b2696e6d0ac3371968847') in 0.007260 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.013642 seconds.
+  path: Packages/com.unity.polyspatial/Tests/Data/ShaderGraph/SourceAssets/Artistic/Filter.shadergraph
+  artifactKey: Guid(ea31b11012fd8424cb78f2dd6d357639) Importer(2089858483,581c8cee6375cf64a6da3fa1fe867c67)
+Start importing Packages/com.unity.polyspatial/Tests/Data/ShaderGraph/SourceAssets/Artistic/Filter.shadergraph using Guid(ea31b11012fd8424cb78f2dd6d357639) Importer(2089858483,581c8cee6375cf64a6da3fa1fe867c67)  -> (artifact id: '097ad299ad0607436ec6cc0c07c62ffc') in 0.007693 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.009344 seconds.
+  path: Packages/com.unity.polyspatial/Tests/Data/ShaderGraph/SourceAssets/Artistic/hsv.shadergraph
+  artifactKey: Guid(2779c593c7778de468769391607065d6) Importer(2089858483,581c8cee6375cf64a6da3fa1fe867c67)
+Start importing Packages/com.unity.polyspatial/Tests/Data/ShaderGraph/SourceAssets/Artistic/hsv.shadergraph using Guid(2779c593c7778de468769391607065d6) Importer(2089858483,581c8cee6375cf64a6da3fa1fe867c67)  -> (artifact id: '6846f90cfcc41f563e79cab1a5e035cd') in 0.012333 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000440 seconds.
+  path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Light.ttf
+  artifactKey: Guid(2a29e27936eb547458f646f71125b264) Importer(2089858483,581c8cee6375cf64a6da3fa1fe867c67)
+Start importing Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Light.ttf using Guid(2a29e27936eb547458f646f71125b264) Importer(2089858483,581c8cee6375cf64a6da3fa1fe867c67)  -> (artifact id: 'e215cd408c378248aba377048bab1e50') in 0.001190 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.002015 seconds.
+  path: Packages/com.unity.polyspatial/Tests/Data/ShaderGraph/SourceAssets/Math/BasicAdvanced.shadergraph
+  artifactKey: Guid(e79f49b6408fe074490ff888cc436194) Importer(2089858483,581c8cee6375cf64a6da3fa1fe867c67)
+Start importing Packages/com.unity.polyspatial/Tests/Data/ShaderGraph/SourceAssets/Math/BasicAdvanced.shadergraph using Guid(e79f49b6408fe074490ff888cc436194) Importer(2089858483,581c8cee6375cf64a6da3fa1fe867c67)  -> (artifact id: 'b94e3e48bf0bbf82059bfab9b3fe59cc') in 0.013636 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.002184 seconds.
+  path: Packages/com.unity.polyspatial/Tests/Data/ShaderGraph/SourceAssets/Math/Vector.shadergraph
+  artifactKey: Guid(7491370f6c55c4a57aee88ccea5e6cc1) Importer(2089858483,581c8cee6375cf64a6da3fa1fe867c67)
+Start importing Packages/com.unity.polyspatial/Tests/Data/ShaderGraph/SourceAssets/Math/Vector.shadergraph using Guid(7491370f6c55c4a57aee88ccea5e6cc1) Importer(2089858483,581c8cee6375cf64a6da3fa1fe867c67)  -> (artifact id: '9ea121d92ab893a222495df48fd1680c') in 0.013461 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.006514 seconds.
+  path: Packages/com.unity.polyspatial/Tests/Data/ShaderGraph/SourceAssets/Math/Advanced.shadergraph
+  artifactKey: Guid(afbd1a5ba371a4cbd8036680c23c8bcb) Importer(2089858483,581c8cee6375cf64a6da3fa1fe867c67)
+Start importing Packages/com.unity.polyspatial/Tests/Data/ShaderGraph/SourceAssets/Math/Advanced.shadergraph using Guid(afbd1a5ba371a4cbd8036680c23c8bcb) Importer(2089858483,581c8cee6375cf64a6da3fa1fe867c67)  -> (artifact id: 'e66a4be0362ed6ae75108a81aaccab72') in 0.008756 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.002126 seconds.
+  path: Packages/com.unity.polyspatial/Resources/Shaders/LitBakedMeshParticles.shadergraph
+  artifactKey: Guid(5289589c1ffa042cda01bb4f48f557b9) Importer(2089858483,581c8cee6375cf64a6da3fa1fe867c67)
+Start importing Packages/com.unity.polyspatial/Resources/Shaders/LitBakedMeshParticles.shadergraph using Guid(5289589c1ffa042cda01bb4f48f557b9) Importer(2089858483,581c8cee6375cf64a6da3fa1fe867c67)  -> (artifact id: '03709a1fdeaf595d3e76754457dacd3c') in 0.018432 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.006189 seconds.
+  path: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Fonts/PerfectDOSVGA437.ttf
+  artifactKey: Guid(74a5091d8707f334b9a5c31ef71a64ba) Importer(2089858483,581c8cee6375cf64a6da3fa1fe867c67)
+Start importing Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Fonts/PerfectDOSVGA437.ttf using Guid(74a5091d8707f334b9a5c31ef71a64ba) Importer(2089858483,581c8cee6375cf64a6da3fa1fe867c67)  -> (artifact id: '795377fa4981057fe9bddc6bd10d029b') in 0.001832 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.003303 seconds.
+  path: Packages/com.unity.polyspatial/Tests/Data/ShaderGraph/SourceAssets/Artistic/Colorspace.shadergraph
+  artifactKey: Guid(32eb53c2b5e1809448dc7300137f3476) Importer(2089858483,581c8cee6375cf64a6da3fa1fe867c67)
+Start importing Packages/com.unity.polyspatial/Tests/Data/ShaderGraph/SourceAssets/Artistic/Colorspace.shadergraph using Guid(32eb53c2b5e1809448dc7300137f3476) Importer(2089858483,581c8cee6375cf64a6da3fa1fe867c67)  -> (artifact id: 'cdf9e0918a980e968450f9e633225d62') in 0.010667 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.013735 seconds.
+  path: Packages/com.unity.polyspatial/Tests/Data/ShaderGraph/SourceAssets/Math/Linear.shadergraph
+  artifactKey: Guid(725af8c8447329346aab96dcd80099ef) Importer(2089858483,581c8cee6375cf64a6da3fa1fe867c67)
+Start importing Packages/com.unity.polyspatial/Tests/Data/ShaderGraph/SourceAssets/Math/Linear.shadergraph using Guid(725af8c8447329346aab96dcd80099ef) Importer(2089858483,581c8cee6375cf64a6da3fa1fe867c67)  -> (artifact id: '7117fd7ea5674cc79661b11d6de8f2b3') in 0.012114 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.002891 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Shaders/2D/VFXSpriteUnlit.shadergraph
+  artifactKey: Guid(d7288f66e4fb0634c9afef98c31b722a) Importer(2089858483,581c8cee6375cf64a6da3fa1fe867c67)
+Start importing Packages/com.unity.render-pipelines.universal/Shaders/2D/VFXSpriteUnlit.shadergraph using Guid(d7288f66e4fb0634c9afef98c31b722a) Importer(2089858483,581c8cee6375cf64a6da3fa1fe867c67)  -> (artifact id: 'a46aafa355233bd5491a2e55d9188bad') in 0.007108 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.008977 seconds.
+  path: Packages/com.unity.polyspatial/Tests/Data/ShaderGraph/SourceAssets/Math/Wave.shadergraph
+  artifactKey: Guid(8a36d44fd6d164d83b2e308c7cdd91b6) Importer(2089858483,581c8cee6375cf64a6da3fa1fe867c67)
+Start importing Packages/com.unity.polyspatial/Tests/Data/ShaderGraph/SourceAssets/Math/Wave.shadergraph using Guid(8a36d44fd6d164d83b2e308c7cdd91b6) Importer(2089858483,581c8cee6375cf64a6da3fa1fe867c67)  -> (artifact id: '7746a40a0d0b109ee6b53e784fea806c') in 0.007475 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.001269 seconds.
+  path: Packages/com.unity.polyspatial/Tests/Data/ShaderGraph/SourceAssets/Input/Inline.shadergraph
+  artifactKey: Guid(696441eeaa5f4d740b16740a9a878c96) Importer(2089858483,581c8cee6375cf64a6da3fa1fe867c67)
+Start importing Packages/com.unity.polyspatial/Tests/Data/ShaderGraph/SourceAssets/Input/Inline.shadergraph using Guid(696441eeaa5f4d740b16740a9a878c96) Importer(2089858483,581c8cee6375cf64a6da3fa1fe867c67)  -> (artifact id: 'c9409821dc7f42f4fd706c5a158adc60') in 0.013003 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.002676 seconds.
+  path: Packages/com.unity.polyspatial/Tests/Data/ShaderGraph/SourceAssets/Input/ProblematicNodes.shadergraph
+  artifactKey: Guid(8c4a555cc77eae646b5104e5726ab96c) Importer(2089858483,581c8cee6375cf64a6da3fa1fe867c67)
+Start importing Packages/com.unity.polyspatial/Tests/Data/ShaderGraph/SourceAssets/Input/ProblematicNodes.shadergraph using Guid(8c4a555cc77eae646b5104e5726ab96c) Importer(2089858483,581c8cee6375cf64a6da3fa1fe867c67)  -> (artifact id: 'fa9c3ed5755caf897acb99b13ecf2c91') in 0.021572 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.001062 seconds.
+  path: Packages/com.unity.polyspatial/Tests/Data/ShaderGraph/SourceAssets/Artistic/Adjustment.shadergraph
+  artifactKey: Guid(95f82910629604b3fb163759e8e91d74) Importer(2089858483,581c8cee6375cf64a6da3fa1fe867c67)
+Start importing Packages/com.unity.polyspatial/Tests/Data/ShaderGraph/SourceAssets/Artistic/Adjustment.shadergraph using Guid(95f82910629604b3fb163759e8e91d74) Importer(2089858483,581c8cee6375cf64a6da3fa1fe867c67)  -> (artifact id: '84fd79d1b67098fed4dd49ee326c4d26') in 0.010526 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.004190 seconds.
+  path: Packages/com.unity.polyspatial/Tests/Data/ShaderGraph/SourceAssets/Input/Matrix.shadergraph
+  artifactKey: Guid(fabbedb6a5dbc46d49d40354aae73820) Importer(2089858483,581c8cee6375cf64a6da3fa1fe867c67)
+Start importing Packages/com.unity.polyspatial/Tests/Data/ShaderGraph/SourceAssets/Input/Matrix.shadergraph using Guid(fabbedb6a5dbc46d49d40354aae73820) Importer(2089858483,581c8cee6375cf64a6da3fa1fe867c67)  -> (artifact id: '22119ce9de8c40214767edf4c087ec8b') in 0.008419 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.005456 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Shaders/Nature/SpeedTree8_PBRLit.shadergraph
+  artifactKey: Guid(9920c1f1781549a46ba081a2a15a16ec) Importer(2089858483,581c8cee6375cf64a6da3fa1fe867c67)
+Start importing Packages/com.unity.render-pipelines.universal/Shaders/Nature/SpeedTree8_PBRLit.shadergraph using Guid(9920c1f1781549a46ba081a2a15a16ec) Importer(2089858483,581c8cee6375cf64a6da3fa1fe867c67)  -> (artifact id: '513d93a9f849ddedca5c47ce2f97f618') in 0.093538 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.021535 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/ArnoldStandardSurface/ArnoldStandardSurface.shadergraph
+  artifactKey: Guid(3739e562a03fc0b4982d8aa66cc50865) Importer(2089858483,581c8cee6375cf64a6da3fa1fe867c67)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/ArnoldStandardSurface/ArnoldStandardSurface.shadergraph using Guid(3739e562a03fc0b4982d8aa66cc50865) Importer(2089858483,581c8cee6375cf64a6da3fa1fe867c67)  -> (artifact id: '9940f00a03f0eb028b6f358b56c702d9') in 0.017115 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000902 seconds.
+  path: Packages/com.unity.polyspatial/Resources/Shaders/TextSDFSmoothstep.shadergraph
+  artifactKey: Guid(37a4366187364499d9e9ef99ee64e3e7) Importer(2089858483,581c8cee6375cf64a6da3fa1fe867c67)
+Start importing Packages/com.unity.polyspatial/Resources/Shaders/TextSDFSmoothstep.shadergraph using Guid(37a4366187364499d9e9ef99ee64e3e7) Importer(2089858483,581c8cee6375cf64a6da3fa1fe867c67)  -> (artifact id: '51a9d23109448ad6933d895fb9bd3170') in 0.020796 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.001022 seconds.
+  path: Packages/com.unity.polyspatial/Tests/Data/ShaderGraph/SourceAssets/Input/Geometry.shadergraph
+  artifactKey: Guid(0f8a5094fd221455abc250b7dbfae5b1) Importer(2089858483,581c8cee6375cf64a6da3fa1fe867c67)
+Start importing Packages/com.unity.polyspatial/Tests/Data/ShaderGraph/SourceAssets/Input/Geometry.shadergraph using Guid(0f8a5094fd221455abc250b7dbfae5b1) Importer(2089858483,581c8cee6375cf64a6da3fa1fe867c67)  -> (artifact id: '8ae8f97dcd6de5f8421f64f2d7597b8f') in 0.005827 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.014630 seconds.
+  path: Packages/com.unity.polyspatial/Tests/Data/ShaderGraph/SourceAssets/Channel.shadergraph
+  artifactKey: Guid(c0c8c93f04e9549adba98fb45b8a3eea) Importer(2089858483,581c8cee6375cf64a6da3fa1fe867c67)
+Start importing Packages/com.unity.polyspatial/Tests/Data/ShaderGraph/SourceAssets/Channel.shadergraph using Guid(c0c8c93f04e9549adba98fb45b8a3eea) Importer(2089858483,581c8cee6375cf64a6da3fa1fe867c67)  -> (artifact id: '5fce4c3c50347b38b71cfafe937ffba7') in 0.004981 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.004411 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Shaders/2D/VFXSpriteLit.shadergraph
+  artifactKey: Guid(24a73dccd7b6fad4798be282f96a21f4) Importer(2089858483,581c8cee6375cf64a6da3fa1fe867c67)
+Start importing Packages/com.unity.render-pipelines.universal/Shaders/2D/VFXSpriteLit.shadergraph using Guid(24a73dccd7b6fad4798be282f96a21f4) Importer(2089858483,581c8cee6375cf64a6da3fa1fe867c67)  -> (artifact id: '483ae24fcf8542e4e239ae77382feca1') in 0.006925 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.002321 seconds.
+  path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Medium.ttf
+  artifactKey: Guid(a51a3aebb43ac044989270407476b208) Importer(2089858483,581c8cee6375cf64a6da3fa1fe867c67)
+Start importing Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Medium.ttf using Guid(a51a3aebb43ac044989270407476b208) Importer(2089858483,581c8cee6375cf64a6da3fa1fe867c67)  -> (artifact id: 'c2e24ffc3b77d6843d110cfccaddfeeb') in 0.001288 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.008368 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Shaders/AutodeskInteractive/AutodeskInteractiveTransparent.shadergraph
+  artifactKey: Guid(5c81372d981403744adbdda4433c9c11) Importer(2089858483,581c8cee6375cf64a6da3fa1fe867c67)
+Start importing Packages/com.unity.render-pipelines.universal/Shaders/AutodeskInteractive/AutodeskInteractiveTransparent.shadergraph using Guid(5c81372d981403744adbdda4433c9c11) Importer(2089858483,581c8cee6375cf64a6da3fa1fe867c67)  -> (artifact id: '4ed60ce4463db8802528a22050f5b394') in 0.013264 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.017136 seconds.
+  path: Packages/com.unity.polyspatial/Resources/Shaders/UnlitBakedMeshParticles.shadergraph
+  artifactKey: Guid(f4f5c043a1afad548b4950de5ffa5d8f) Importer(2089858483,581c8cee6375cf64a6da3fa1fe867c67)
+Start importing Packages/com.unity.polyspatial/Resources/Shaders/UnlitBakedMeshParticles.shadergraph using Guid(f4f5c043a1afad548b4950de5ffa5d8f) Importer(2089858483,581c8cee6375cf64a6da3fa1fe867c67)  -> (artifact id: '689ee8819c4d65351c80ac0d91f12ec4') in 0.016258 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.003242 seconds.
+  path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-ThinItalic.ttf
+  artifactKey: Guid(b2ea3b3f1765e544b9eb5bd1a93a91ce) Importer(2089858483,581c8cee6375cf64a6da3fa1fe867c67)
+Start importing Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-ThinItalic.ttf using Guid(b2ea3b3f1765e544b9eb5bd1a93a91ce) Importer(2089858483,581c8cee6375cf64a6da3fa1fe867c67)  -> (artifact id: '631f41e2a6eddc5efc5223f0f19c3530') in 0.001420 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.017200 seconds.
+  path: Assets/ExampleAssets/Fonts/Inter/Inter-Regular.ttf
+  artifactKey: Guid(78c7f42a7547f22448a621eaeeef3fd2) Importer(2089858483,581c8cee6375cf64a6da3fa1fe867c67)
+Start importing Assets/ExampleAssets/Fonts/Inter/Inter-Regular.ttf using Guid(78c7f42a7547f22448a621eaeeef3fd2) Importer(2089858483,581c8cee6375cf64a6da3fa1fe867c67)  -> (artifact id: '1dd09cbdbc7fa1e1655d5292c8f51986') in 0.001587 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.010024 seconds.
+  path: Packages/com.unity.polyspatial/Tests/Data/ShaderGraph/SourceAssets/Input/Scene.shadergraph
+  artifactKey: Guid(fbe171a4222084a2f993b86d7ccb1aaa) Importer(2089858483,581c8cee6375cf64a6da3fa1fe867c67)
+Start importing Packages/com.unity.polyspatial/Tests/Data/ShaderGraph/SourceAssets/Input/Scene.shadergraph using Guid(fbe171a4222084a2f993b86d7ccb1aaa) Importer(2089858483,581c8cee6375cf64a6da3fa1fe867c67)  -> (artifact id: '20eeae93446a3c651586e7342f3ea04c') in 0.005661 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.005983 seconds.
+  path: Packages/com.unity.polyspatial/Tests/Data/ShaderGraph/SourceAssets/Math/LerpRange.shadergraph
+  artifactKey: Guid(303a7981ccfb6994ebb8053b28b117ee) Importer(2089858483,581c8cee6375cf64a6da3fa1fe867c67)
+Start importing Packages/com.unity.polyspatial/Tests/Data/ShaderGraph/SourceAssets/Math/LerpRange.shadergraph using Guid(303a7981ccfb6994ebb8053b28b117ee) Importer(2089858483,581c8cee6375cf64a6da3fa1fe867c67)  -> (artifact id: 'ffcf6846a171fec0c85b756ac11cb32c') in 0.009742 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.001596 seconds.
+  path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-BlackItalic.ttf
+  artifactKey: Guid(f95147a9bab9fe649b8070170fa7ebd2) Importer(2089858483,581c8cee6375cf64a6da3fa1fe867c67)
+Start importing Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-BlackItalic.ttf using Guid(f95147a9bab9fe649b8070170fa7ebd2) Importer(2089858483,581c8cee6375cf64a6da3fa1fe867c67)  -> (artifact id: '7ab023e35d93326a604ea2cd8504f8ee') in 0.001217 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.020558 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/ArnoldStandardSurface/ArnoldStandardSurfaceTransparent.shadergraph
+  artifactKey: Guid(30fa68ce467463643a86b839ca0eb195) Importer(2089858483,581c8cee6375cf64a6da3fa1fe867c67)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/ArnoldStandardSurface/ArnoldStandardSurfaceTransparent.shadergraph using Guid(30fa68ce467463643a86b839ca0eb195) Importer(2089858483,581c8cee6375cf64a6da3fa1fe867c67)  -> (artifact id: '74d0cae64f83ead0bea72ceeb36c65a5') in 0.017882 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.002963 seconds.
+  path: Packages/com.unity.polyspatial/Tests/Data/ShaderGraph/SourceAssets/Utility/Logic.shadergraph
+  artifactKey: Guid(34fc63b77bd88466abc04ce35d4bd949) Importer(2089858483,581c8cee6375cf64a6da3fa1fe867c67)
+Start importing Packages/com.unity.polyspatial/Tests/Data/ShaderGraph/SourceAssets/Utility/Logic.shadergraph using Guid(34fc63b77bd88466abc04ce35d4bd949) Importer(2089858483,581c8cee6375cf64a6da3fa1fe867c67)  -> (artifact id: 'aa89beb603fc71cec8548fef96b7c79f') in 0.010266 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.002730 seconds.
+  path: Packages/com.unity.polyspatial/Tests/Data/ShaderGraph/SourceAssets/Math/RoundTrig.shadergraph
+  artifactKey: Guid(b9d811094d8e17e4b9cdd1f84800d026) Importer(2089858483,581c8cee6375cf64a6da3fa1fe867c67)
+Start importing Packages/com.unity.polyspatial/Tests/Data/ShaderGraph/SourceAssets/Math/RoundTrig.shadergraph using Guid(b9d811094d8e17e4b9cdd1f84800d026) Importer(2089858483,581c8cee6375cf64a6da3fa1fe867c67)  -> (artifact id: '5ba576c72560dd462ae21a291f4d29c4') in 0.010115 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.014431 seconds.
+  path: Packages/com.unity.polyspatial/Tests/Data/ShaderGraph/SourceAssets/Procedural.shadergraph
+  artifactKey: Guid(fc440c14f86d24287a21c8b213e7e13e) Importer(2089858483,581c8cee6375cf64a6da3fa1fe867c67)
+Start importing Packages/com.unity.polyspatial/Tests/Data/ShaderGraph/SourceAssets/Procedural.shadergraph using Guid(fc440c14f86d24287a21c8b213e7e13e) Importer(2089858483,581c8cee6375cf64a6da3fa1fe867c67)  -> (artifact id: 'e84afeb32afda3000f43b885c468ad3e') in 0.007212 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.057430 seconds.
+  path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Bold.ttf
+  artifactKey: Guid(3750c318f40cab44a97d3a81beaefeb3) Importer(2089858483,581c8cee6375cf64a6da3fa1fe867c67)
+Start importing Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Bold.ttf using Guid(3750c318f40cab44a97d3a81beaefeb3) Importer(2089858483,581c8cee6375cf64a6da3fa1fe867c67)  -> (artifact id: '5aab2db2f2b01e6e7939c2771dc5bffb') in 0.001513 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.020115 seconds.
+  path: Assets/ExampleAssets/Shaders/InteractablePrimitive.shadergraph
+  artifactKey: Guid(d97921c9ddc246c44b683fccfcc004d8) Importer(2089858483,581c8cee6375cf64a6da3fa1fe867c67)
+Start importing Assets/ExampleAssets/Shaders/InteractablePrimitive.shadergraph using Guid(d97921c9ddc246c44b683fccfcc004d8) Importer(2089858483,581c8cee6375cf64a6da3fa1fe867c67)  -> (artifact id: '9b1ffea8fe3d6ab551796657cacfe67a') in 0.013032 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/TextMesh Pro/Fonts/LiberationSans.ttf
+  artifactKey: Guid(e3265ab4bf004d28a9537516768c1c75) Importer(2089858483,581c8cee6375cf64a6da3fa1fe867c67)
+Start importing Assets/TextMesh Pro/Fonts/LiberationSans.ttf using Guid(e3265ab4bf004d28a9537516768c1c75) Importer(2089858483,581c8cee6375cf64a6da3fa1fe867c67)  -> (artifact id: 'a761ad1d127c386aa1a07951f50ebc75') in 0.001264 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.003028 seconds.
+  path: Packages/com.unity.polyspatial/Tests/Data/ShaderGraph/SourceAssets/Input/GeomTangent.shadergraph
+  artifactKey: Guid(a0bbc0668b89ef14babb8a73ce0d3170) Importer(2089858483,581c8cee6375cf64a6da3fa1fe867c67)
+Start importing Packages/com.unity.polyspatial/Tests/Data/ShaderGraph/SourceAssets/Input/GeomTangent.shadergraph using Guid(a0bbc0668b89ef14babb8a73ce0d3170) Importer(2089858483,581c8cee6375cf64a6da3fa1fe867c67)  -> (artifact id: 'e53eb3b68574c847a265d2160a851754') in 0.043650 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000845 seconds.
+  path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Black.ttf
+  artifactKey: Guid(1062c701058745940ae5dca6219c64c8) Importer(2089858483,581c8cee6375cf64a6da3fa1fe867c67)
+Start importing Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Black.ttf using Guid(1062c701058745940ae5dca6219c64c8) Importer(2089858483,581c8cee6375cf64a6da3fa1fe867c67)  -> (artifact id: 'b7e39dbeb31be5d7057bfb51cb7a9ec7') in 0.002767 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.005967 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Shaders/FullscreenInvertColors.shadergraph
+  artifactKey: Guid(fb6390f650ca44a5ba3246d8dda47927) Importer(2089858483,581c8cee6375cf64a6da3fa1fe867c67)
+Start importing Packages/com.unity.render-pipelines.universal/Shaders/FullscreenInvertColors.shadergraph using Guid(fb6390f650ca44a5ba3246d8dda47927) Importer(2089858483,581c8cee6375cf64a6da3fa1fe867c67)  -> (artifact id: '3ad3532886e27ee8f061fea2c14def4f') in 0.005753 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.002615 seconds.
+  path: Packages/com.unity.polyspatial/Tests/Data/ShaderGraph/SourceAssets/Artistic/Normal.shadergraph
+  artifactKey: Guid(358363c53afa548c3b940576b972447c) Importer(2089858483,581c8cee6375cf64a6da3fa1fe867c67)
+Start importing Packages/com.unity.polyspatial/Tests/Data/ShaderGraph/SourceAssets/Artistic/Normal.shadergraph using Guid(358363c53afa548c3b940576b972447c) Importer(2089858483,581c8cee6375cf64a6da3fa1fe867c67)  -> (artifact id: 'e50bf886c8adb9415039c0872ca6aa41') in 0.010293 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.018818 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Shaders/Decal.shadergraph
+  artifactKey: Guid(9b4e681081e2b4c469111bb649e2f7ee) Importer(2089858483,581c8cee6375cf64a6da3fa1fe867c67)
+Start importing Packages/com.unity.render-pipelines.universal/Shaders/Decal.shadergraph using Guid(9b4e681081e2b4c469111bb649e2f7ee) Importer(2089858483,581c8cee6375cf64a6da3fa1fe867c67)  -> (artifact id: '418cdbe8e43d6f3d2f48a0def06da0c2') in 0.007593 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.005946 seconds.
+  path: Packages/com.unity.polyspatial/Tests/Data/ShaderGraph/SourceAssets/Artistic/ReconstructZ.shadergraph
+  artifactKey: Guid(6699b12bfbc5e5f41ae1a9ce710ccaf8) Importer(2089858483,581c8cee6375cf64a6da3fa1fe867c67)
+Start importing Packages/com.unity.polyspatial/Tests/Data/ShaderGraph/SourceAssets/Artistic/ReconstructZ.shadergraph using Guid(6699b12bfbc5e5f41ae1a9ce710ccaf8) Importer(2089858483,581c8cee6375cf64a6da3fa1fe867c67)  -> (artifact id: 'b0fc2ce2ad4b153361df628302caddce') in 0.009218 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.076165 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Shaders/AutodeskInteractive/AutodeskInteractive.shadergraph
+  artifactKey: Guid(0e9d5a909a1f7e84882a534d0d11e49f) Importer(2089858483,581c8cee6375cf64a6da3fa1fe867c67)
+Start importing Packages/com.unity.render-pipelines.universal/Shaders/AutodeskInteractive/AutodeskInteractive.shadergraph using Guid(0e9d5a909a1f7e84882a534d0d11e49f) Importer(2089858483,581c8cee6375cf64a6da3fa1fe867c67)  -> (artifact id: '1ea1f70989ede85022169c53c931de52') in 0.014492 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x2c5f47000 may have been prematurely finalized
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.280 seconds
+Refreshing native plugins compatible for Editor in 2.62 ms, found 3 plugins.
+Native extension for VisionOS target not found
+Native extension for iOS target not found
+Native extension for OSXStandalone target not found
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-PolySpatial Project Template
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.PolySpatial.PolySpatialSettings.LoadPackageVersion () [0x00046] in ./Library/PackageCache/com.unity.polyspatial@1.0.3/Runtime/Public/PolySpatialSettingsForEditor.cs:188 
+  at Unity.PolySpatial.PolySpatialSettings.InitializeInEditor () [0x0000b] in ./Library/PackageCache/com.unity.polyspatial@1.0.3/Runtime/Public/PolySpatialSettingsForEditor.cs:170 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <dcf6bec1c5764d29a37432d4b047f650>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <dcf6bec1c5764d29a37432d4b047f650>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <dcf6bec1c5764d29a37432d4b047f650>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:145 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes () (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:149)
+
+(Filename: /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs Line: 149)
+
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.994 seconds
+Domain Reload Profiling: 1274ms
+	BeginReloadAssembly (91ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (42ms)
+	RebuildCommonClasses (19ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (12ms)
+	LoadAllAssembliesAndSetupDomain (151ms)
+		LoadAssemblies (160ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (14ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (994ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (331ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (14ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (65ms)
+			ProcessInitializeOnLoadAttributes (205ms)
+			ProcessInitializeOnLoadMethodAttributes (42ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Refreshing native plugins compatible for Editor in 2.45 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5550 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 72 unused Assets / (2.0 MB). Loaded Objects now: 6168.
+Memory consumption went from 234.5 MB to 232.5 MB.
+Total: 3.272084 ms (FindLiveObjects: 0.169250 ms CreateObjectMapping: 0.053125 ms MarkObjects: 2.527750 ms  DeleteObjects: 0.521417 ms)
+
+Prepare: number of updated asset objects reloaded= 1
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 62b5816608c3102f162a1797e29626cf -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 14.383425 seconds.
+  path: Assets/InputSystem.inputsettings.asset
+  artifactKey: Guid(bb65518a4a80049acbc5e85e70dbbee0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/InputSystem.inputsettings.asset using Guid(bb65518a4a80049acbc5e85e70dbbee0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f593101e718807ab70cc086db1ffec91') in 0.008013 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/UniversalRenderPipelineGlobalSettings.asset
+  artifactKey: Guid(5f4430211465ff44a82a2eda6066170d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UniversalRenderPipelineGlobalSettings.asset using Guid(5f4430211465ff44a82a2eda6066170d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c30620e2232e8968f29fc0357825adac') in 0.000842 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/UniversalRenderPipelineAsset_Renderer.asset
+  artifactKey: Guid(cbd2b63069f6a1d428fbf8e2e2ea7a17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UniversalRenderPipelineAsset_Renderer.asset using Guid(cbd2b63069f6a1d428fbf8e2e2ea7a17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edcac805de55f2f131de834d94556d8b') in 0.000469 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/UniversalRenderPipelineAsset.asset
+  artifactKey: Guid(c6684b342aa7e684eb6c3480b98ebf94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UniversalRenderPipelineAsset.asset using Guid(c6684b342aa7e684eb6c3480b98ebf94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '096db3ae0e67c5ba1450a02a8475bda2') in 0.000378 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 89, details: Operation aborted.
+AssetImportWorker is now disconnected from the server
+Process exiting

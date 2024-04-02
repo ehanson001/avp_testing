@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 019d9e67133646548a506370e966316a, type: 3}
   m_Name: PolySpatialSettings
   m_EditorClassIdentifier: 
-  m_PackageVersion: 0.7.1
+  m_PackageVersion: 1.1.6
   m_EnableStatistics: 0
   m_ColliderSyncLayerMask:
     serializedVersion: 2
@@ -28,6 +28,8 @@ MonoBehaviour:
   m_AutoCreateVolumeCamera: 1
   m_TransmitDebugInfo: 0
   m_EnableFallbackShaderConversion: 1
+  m_EnableRuntimeValidation: 0
+  m_RuntimeValidationFrameCount: 10
   m_ConnectionDiscoveryPort: 9877
   m_ConnectionDiscoverySendInterval: 1
   m_ConnectionDiscoveryTimeOutDuration: 5
@@ -70,7 +72,7 @@ MonoBehaviour:
       top: 1
       bottom: -1
   m_MaterialSwapSets: []
-  m_ForceValidationForCurrentBuildTarget: 1
+  m_SelectedValidationType: 1
   m_ShowWarningsForShaderGraphsInPackages: 1
   m_RuntimeMode: 0
   m_EnableTransformVerification: 0
